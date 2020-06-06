@@ -5,7 +5,7 @@ variable "aws_region" {
 variable "num" {}
 
 variable "aws_profile" {
-  default = "superhero"
+  default = ""
 }
 
 variable "inst_type" {
