@@ -6,8 +6,8 @@ resource "aws_instance" "instance" {
   count           = var.num
   ami             = var.ami
   instance_type   = var.inst_type
-  key_name        = "Ubuntu key pair"
-  security_groups = [ "SSH n jenkins" ]
+  key_name        = ""
+  security_groups = [ "" ]
 
  lifecycle {
      create_before_destroy = false
